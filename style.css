@@ -228,8 +228,8 @@ ol.timeline p { margin: 0; font-size: 15px; color: var(--muted); }
   ol.timeline li.main::after { top: 12px; }
 }
 
-.hero-grid { display: grid; grid-template-columns: 1.35fr 1fr; gap: 40px; align-items: center; }
-.hero-art { background: #fff; padding: 20px; border-radius: 6px; }
+.hero-grid { display: grid; grid-template-columns: 1fr clamp(160px, 24vw, 280px); gap: 32px; align-items: center; }
+.hero-art { background: #fff; padding: 12px; border-radius: 6px; }
 .hero-art img { display: block; width: 100%; height: auto; }
-@media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } .hero-art { max-width: 420px; } }
+@media (max-width: 480px) { .hero-grid { grid-template-columns: 1fr 120px; gap: 16px; } .hero-art { padding: 6px; } }
 .day dt { min-width: 56px; }
