@@ -15,6 +15,8 @@ Glycothon is a proposed CASP inspired hackathon for glycoscience methods. The go
 7. Which challenge interests you most? (checkboxes): Structure prediction, Matching glycan and carrier, Structure function relationships, Biological function of glycan decorations, Standards and nomenclature, Not sure yet
 8. Could you provide sampled or dummy data as references and for experimentation? (multiple choice): Yes, Maybe, No
 9. If yes or maybe, what kind of data? (paragraph): for example LC MS/MS spectra, glycan structures, glycoproteomics, binding data. Please do not send unpublished results.
-10. Tools, databases or workflows you could contribute (paragraph, optional)
+10. A method or technique you can offer to other groups (paragraph, optional)
+10b. A gap in your own workflow you would like help with (paragraph, optional)
+10c. Where do you see opportunities for automation? (checkboxes): Sample preparation, Data acquisition, Data processing, Simulation setup and preparation, Annotation and structure assignment, Reporting and data deposition, Laboratory robotics, Protocol standardization
 11. May we list your name on the website as a participant or jury member? (multiple choice): Yes, No
 12. Anything else? (paragraph, optional)

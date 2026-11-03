@@ -38,7 +38,7 @@ Computational and experimental glycoscientists meet on one shared, hands on spac
 3. Structure function relationships
 4. Biological function of glycan decorations
 
-The goal is to expose each group's gaps and exchange ideas toward common standards.
+The event works as a method exchange: each group offers techniques that work in its own lab and fills its gaps with methods from others, toward common standards. Teams also look for opportunities to automate science, from data analysis and simulation setup to workflow and laboratory automation.
 
 ## 4. Evaluation and outcomes
 
