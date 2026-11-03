@@ -2,7 +2,7 @@
 
 A CASP inspired hackathon for glycoscience methods.
 
-Status: draft proposal. Date and venue to be announced.
+Status: Date and venue to be announced.
 
 ![Glycothon poster](assets/hackathon_poster.png)
 
@@ -44,8 +44,6 @@ The event works as a method exchange: each group offers techniques that work in 
 
 A judging panel evaluates submissions on approach, novelty and reproducibility.
 
-Panel: Marissa Maciej (invited, to be confirmed), others to be confirmed.
-
 Code, data and outcomes from all teams are archived in a public repository. Results are compiled toward a joint publication documenting the exercise. The format encourages benchmarking, cross disciplinary exchange and lasting collaboration.
 
 ## Get involved
@@ -57,7 +55,3 @@ Interest form (team member, jury, data contributor): https://docs.google.com/for
 
 Claudia Leticia Gomez Flores, MPI for Solid State Research, Stuttgart, DE
 Advisor: Kelvin Anggara, MPI for Solid State Research, Stuttgart, DE
-
-## Repository layout
-
-index.html, style.css and the assets folder hold the project website. Enable GitHub Pages on the main branch, root folder, to publish it.
