@@ -10,7 +10,9 @@ Status: draft proposal. Date and venue to be announced.
 
 ## Scope
 
-Glycothon focuses on developing methodologies and techniques for glycoscience. It is not a basic glycoscience research competition.
+Glycothon builds a shared pool of tools and standards for glycoscience. It focuses on developing methodologies and techniques, and it is not meant to create or deposit basic glycoscience research.
+
+Students and postdocs do the hands on work in mixed teams. Principal investigators form the jury. Groups can also offer sampled or dummy data as references and for experimentation.
 
 ## 1. Why glycans are hard
 
@@ -49,7 +51,7 @@ Code, data and outcomes from all teams are archived in a public repository. Resu
 ## Get involved
 
 Contact: [CONTACT EMAIL]
-Sign up: [LINK TO SIGN UP FORM]
+Interest form (team member, jury, data contributor): [LINK TO GOOGLE FORM]
 
 ## Organizers
 
