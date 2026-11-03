@@ -2,7 +2,11 @@
 
 A CASP inspired hackathon for glycoscience methods.
 
-Status: draft proposal. Date, venue and organizers to be announced.
+Status: draft proposal. Date and venue to be announced.
+
+![Glycothon poster](assets/hackathon_poster.png)
+
+[Download the poster as PDF (A0)](assets/hackathon_poster.pdf)
 
 ## Scope
 
@@ -49,7 +53,8 @@ Sign up: [LINK TO SIGN UP FORM]
 
 ## Organizers
 
-[ORGANIZER NAMES AND AFFILIATIONS]
+Claudia Leticia Gomez Flores, MPI for Solid State Research, Stuttgart, DE
+Advisor: Kelvin Anggara, MPI for Solid State Research, Stuttgart, DE
 
 ## Repository layout
 
