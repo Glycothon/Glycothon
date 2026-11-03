@@ -6,7 +6,6 @@ Status: Date and venue to be announced.
 
 ![Glycothon poster](assets/hackathon_poster.png)
 
-[Download the poster as PDF (A0)](assets/hackathon_poster.pdf)
 
 ## Scope
 
