@@ -227,3 +227,9 @@ ol.timeline p { margin: 0; font-size: 15px; color: var(--muted); }
   ol.timeline li::after { left: -36px; top: 18px; }
   ol.timeline li.main::after { top: 12px; }
 }
+
+.hero-grid { display: grid; grid-template-columns: 1.35fr 1fr; gap: 40px; align-items: center; }
+.hero-art { background: #fff; padding: 20px; border-radius: 6px; }
+.hero-art img { display: block; width: 100%; height: auto; }
+@media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } .hero-art { max-width: 420px; } }
+.day dt { min-width: 56px; }
