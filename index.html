@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glycoscience Hackathon: a CASP inspired event</title>
+<meta name="description" content="A proposed hackathon that brings computational and experimental glycoscientists together to build and benchmark methods and techniques for glycoscience.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#top">Glycoscience Hackathon</a>
+    <ul>
+      <li><a href="#problem">Problem</a></li>
+      <li><a href="#gap">Gap</a></li>
+      <li><a href="#format">Format</a></li>
+      <li><a href="#evaluation">Evaluation</a></li>
+      <li><a href="#outline">Outline</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#join">Join</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="kicker">SMART · Hackathon proposal</div>
+    <h1>A CASP inspired hackathon for glycoscience methods</h1>
+    <p class="lead">Computational and experimental glycoscientists, working in mixed teams on one shared, hands on space, to build and benchmark the methods the field still lacks.</p>
+    <div class="btns">
+      <a class="btn solid" href="#format">How it works</a>
+      <a class="btn" href="#join">Get involved</a>
+    </div>
+    <p class="meta">[DATE] · [VENUE OR ONLINE] · [ORGANIZER NAMES AND AFFILIATIONS]</p>
+  </div>
+</header>
+
+<div class="scope">
+  <div class="wrap">
+    <span class="tag">Scope</span>
+    <p>The hackathon focuses on developing methodologies and techniques for glycoscience, not on basic glycoscience research.</p>
+  </div>
+</div>
+
+<main id="main">
+
+<section id="about">
+  <div class="wrap">
+    <h2>About this proposal</h2>
+    <p class="sub">Efforts in both bioinformatics and experimental science have meaningfully advanced the characterization of glycosylation of biomolecules. Single molecule techniques for glycan sequencing are emerging, and computational workflows now cover glycan motif annotation, structure prediction from LC MS/MS data and protein glycan interaction modeling. Yet these advances remain scattered.</p>
+    <p class="sub">This page explains why a shared exercise is needed, how the hackathon would run, how results would be judged, and what would come out of it. It is a draft proposal, and every detail marked in square brackets is still to be confirmed.</p>
+    <div class="grid">
+      <div class="card"><h3>Who</h3><p>Computational and experimental glycoscientists, in mixed teams that combine different labs and backgrounds.</p></div>
+      <div class="card"><h3>What</h3><p>Teams define and pursue a specific challenge together, focused on methods and techniques.</p></div>
+      <div class="card"><h3>Why</h3><p>To expose each group's gaps and exchange ideas toward common standards and benchmarks.</p></div>
+      <div class="card"><h3>Result</h3><p>Open code, data and outcomes on a public repository, and a joint publication.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="problem" class="alt">
+  <div class="wrap">
+    <h2><span class="num">1</span>Why glycans are hard</h2>
+    <p class="sub">Glycans combine three properties that make them very different from the proteins and nucleic acids that most computational tools were built for.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Branched and not template driven</h3>
+        <p>Linkage, anomeric configuration and branching generate isomeric diversity. The resulting combinatorial complexity goes beyond what current methods handle in proteins or nucleic acids.</p>
+      </div>
+      <div class="card">
+        <h3>Not genome encoded</h3>
+        <p>As post translational modifications, glycans are not directly encoded in the genome. They demand approaches distinct from those built for sequence based biomolecules.</p>
+      </div>
+      <div class="card">
+        <h3>Structurally ambiguous data</h3>
+        <p>Mass spectrometry is still the dominant technique, but it often cannot resolve linkage and branching. Datasets are left with inherent structural ambiguity.</p>
+      </div>
+    </div>
+
+    <figure>
+      <img src="assets/isomers.svg" alt="Three glycans, Lewis a, Lewis x and H type 2, each made of one fucose, one galactose and one N acetylglucosamine but joined differently, so they share one formula and mass.">
+      <figcaption>Same composition, same mass, different structures. Lewis a, Lewis x and H type 2 each hold one Fuc, one Gal and one GlcNAc. They differ only in linkage and branching. Symbols follow the SNFG convention.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="assets/no_template.svg" alt="Left: a template is copied into identical chains, as for DNA, RNA and proteins. Right: glycans on a protein, on a lipid or free are built by enzymes, not copied from a template.">
+      <figcaption>Nucleic acids and proteins are copied from a template. Glycans are built by enzymes, on proteins, on lipids or free. The sketches are illustrative and do not stand for specific known structures.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="gap">
+  <div class="wrap">
+    <h2><span class="num">2</span>What is still missing</h2>
+    <p class="sub">Resources and methods exist, but they do not yet add up to a shared foundation.</p>
+
+    <div class="two">
+      <div>
+        <h3>Resources that are not harmonized</h3>
+        <p>GlyTouCan, GlyGen, UniCarbKB and GlyConnect all exist, but they remain incompletely harmonized. Because the platforms are scattered, some distrust has built up between groups. A common, neutral exercise is one way to rebuild it.</p>
+
+        <h3>Several nomenclatures</h3>
+        <p>Multiple coexisting nomenclatures hinder machine readability:</p>
+        <ul class="chips">
+          <li>IUPAC condensed</li>
+          <li>Oxford</li>
+          <li>SNFG</li>
+          <li>Linear code</li>
+        </ul>
+        <p>Chemical notations such as SMILES add yet another way of writing the same structure.</p>
+      </div>
+      <div>
+        <h3>No ground truth</h3>
+        <p>Protein science relies on the Protein Data Bank (PDB) as accepted ground truth. Glycoscience still lacks an equivalent benchmark corpus.</p>
+
+        <h3>No shared evaluation</h3>
+        <p>CASP, the Critical Assessment of protein Structure Prediction, gives protein structure prediction a shared way to compare methods, with scores such as GDT. Glycoscience has no comparable evaluation framework, so methods cannot be compared on equal terms.</p>
+      </div>
+    </div>
+
+    <figure>
+      <img src="assets/smiles_branch.svg" alt="The SMILES string of Lewis x, split into colored stretches for fucose, N acetylglucosamine and galactose, next to the matching SNFG drawing.">
+      <figcaption>One glycan, one line of text. This SMILES string of Lewis x is colored by residue. Parentheses open a branch off the atom before them. Many other valid strings describe the same molecule, which is part of the readability problem.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="format" class="alt">
+  <div class="wrap">
+    <h2><span class="num">3</span>The hackathon</h2>
+    <p class="sub">A hackathon inspired by CASP, bringing computational and experimental glycoscientists together on one shared, hands on space.</p>
+
+    <h3>Mixed teams, one challenge</h3>
+    <p>Participants form mixed teams that combine different labs and backgrounds. Each team defines and pursues a specific glycoscience challenge together. Examples of challenges:</p>
+    <div class="grid">
+      <div class="card"><h3>Structure prediction</h3><p>Predicting glycan structures, for example from LC MS/MS data.</p></div>
+      <div class="card"><h3>Matching glycan and carrier</h3><p>Linking a glycan to the molecule it decorates.</p></div>
+      <div class="card"><h3>Structure function relationships</h3><p>Relating what a glycan looks like to what it does.</p></div>
+      <div class="card"><h3>Biological function</h3><p>Understanding the biological function of glycan decorations.</p></div>
+    </div>
+
+    <h3>Why mixed teams</h3>
+    <p>The purpose of the event is to expose each group's gaps and to exchange ideas toward common standards. Experimentalists see what computational methods need from their data. Computational groups see what experiments can and cannot resolve.</p>
+
+    <h3>Scope</h3>
+    <div class="note"><strong>Methods and techniques, not basic research.</strong> The hackathon focuses on developing methodologies and techniques for glycoscience. It is not a venue for basic glycoscience research.</div>
+  </div>
+</section>
+
+<section id="evaluation">
+  <div class="wrap">
+    <h2><span class="num">4</span>Evaluation and outcomes</h2>
+    <p class="sub">Submissions are evaluated by a judging panel, and everything produced is kept open.</p>
+
+    <div class="two">
+      <div>
+        <h3>Judging criteria</h3>
+        <dl class="crit">
+          <div><dt>Approach</dt><dd>How the team framed the challenge and the method it chose.</dd></div>
+          <div><dt>Novelty</dt><dd>What the submission adds beyond existing methods.</dd></div>
+          <div><dt>Reproducibility</dt><dd>Whether others can rerun the work from the shared code and data.</dd></div>
+        </dl>
+        <p class="note" style="margin-top:16px">Judging panel: [TO BE CONFIRMED]</p>
+      </div>
+      <div>
+        <h3>What comes out</h3>
+        <dl class="crit">
+          <div><dt>Open archive</dt><dd>Code, data and outcomes from all teams are archived on a public repository.</dd></div>
+          <div><dt>Joint publication</dt><dd>Results are compiled toward a joint publication documenting the exercise.</dd></div>
+          <div><dt>Lasting collaboration</dt><dd>The format encourages benchmarking, cross disciplinary exchange and collaboration across a field that spans many methodologies.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="outline" class="alt">
+  <div class="wrap">
+    <h2>Proposed outline</h2>
+    <p class="sub">A first sketch of the sequence. Dates and durations are still to be decided.</p>
+    <ol class="steps">
+      <li><strong>Call and team formation.</strong> Interested groups register, and mixed teams are formed across labs and backgrounds. [DATE]</li>
+      <li><strong>Challenge definition.</strong> Each team defines the specific challenge it will pursue. [DATE]</li>
+      <li><strong>Hackathon.</strong> Teams work together in one shared space. [DATE AND PLACE]</li>
+      <li><strong>Submission.</strong> Teams submit approach, code, data and results. [DATE]</li>
+      <li><strong>Judging.</strong> The panel evaluates approach, novelty and reproducibility. [DATE]</li>
+      <li><strong>Archive and publication.</strong> Everything goes to a public repository and results are compiled toward a joint publication. [DATE]</li>
+    </ol>
+  </div>
+</section>
+
+<section id="team">
+  <div class="wrap">
+    <h2>Organizers and evaluators</h2>
+    <p class="sub">Names will be added once participation is confirmed.</p>
+    <table>
+      <thead><tr><th scope="col">Role</th><th scope="col">Name</th><th scope="col">Affiliation</th></tr></thead>
+      <tbody>
+        <tr><td>Organizer</td><td>[NAME]</td><td>[AFFILIATION]</td></tr>
+        <tr><td>Organizer</td><td>[NAME]</td><td>[AFFILIATION]</td></tr>
+        <tr><td>Judging panel</td><td>[NAME]</td><td>[AFFILIATION]</td></tr>
+        <tr><td>Judging panel</td><td>[NAME]</td><td>[AFFILIATION]</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="faq" class="alt">
+  <div class="wrap">
+    <h2>Questions</h2>
+    <details>
+      <summary>Who can take part?</summary>
+      <p>Computational and experimental glycoscientists. Teams are mixed, combining different labs and backgrounds.</p>
+    </details>
+    <details>
+      <summary>Is this a basic research competition?</summary>
+      <p>No. The hackathon focuses on developing methodologies and techniques for glycoscience, not on basic glycoscience research.</p>
+    </details>
+    <details>
+      <summary>What kind of challenge can a team choose?</summary>
+      <p>Each team defines its own specific glycoscience challenge. Examples include structure prediction, matching glycan and carrier, structure function relationships and the biological function of glycan decorations.</p>
+    </details>
+    <details>
+      <summary>How are submissions judged?</summary>
+      <p>A judging panel evaluates approach, novelty and reproducibility.</p>
+    </details>
+    <details>
+      <summary>What happens to the code and data?</summary>
+      <p>Code, data and outcomes from all teams are archived on a public repository, and results are compiled toward a joint publication.</p>
+    </details>
+    <details>
+      <summary>Why a hackathon, and why inspired by CASP?</summary>
+      <p>Protein science has the PDB as ground truth and CASP as a shared evaluation. Glycoscience has neither. A hackathon is a practical first step toward shared benchmarks and a common evaluation framework.</p>
+    </details>
+  </div>
+</section>
+
+<section id="join">
+  <div class="wrap">
+    <h2>Get involved</h2>
+    <p class="sub">Interested in taking part, joining the judging panel or helping organize? Get in touch.</p>
+    <div class="grid">
+      <div class="card"><h3>Contact</h3><p>[CONTACT EMAIL]</p></div>
+      <div class="card"><h3>Repository</h3><p>[LINK TO PUBLIC REPOSITORY]</p></div>
+      <div class="card"><h3>Registration</h3><p>[LINK TO SIGN UP FORM]</p></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Draft proposal. Content is subject to change. [LOGOS AND ACKNOWLEDGEMENTS]</p>
+  </div>
+</footer>
+</body>
+</html>
