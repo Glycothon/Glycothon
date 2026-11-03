@@ -1,0 +1,58 @@
+    A CASP inspired hackathon
+                  for glycoscience methods
+                                               Developing methodologies and techniques for glycoscience research
+
+                                                                                                               CLAUDIA LETICIA GOMEZ FLORES
+                                                                                                                MPI FOR SOLID STATE RESEARCH, STUTTGART, DE
+
+
+
+
+Why are glycans hard?                                                                    What is missing?
+                                                                                                 Machine readability
+    Branched and not template driven
+                                                                                                 Multiple coexisting nomenclatures and representations
+
+    Isomeric diversity in linkage and anomeric form driven                                         SNFG         IUPAC        Oxford       Linear code
+
+    Ambiguous mass spectrometry data
+                                                                                                 Harmonized resources
+
+                                                                                                 Scattered data sources
+
+
+
+
+                                                                                                        Ground truth, "PDB" equivalent
+                                                                                                        FAIR principles
+                                                                                                        Connectivity
+
+
+The hackathon                                                                            Evaluation and outcomes
+                             Structure and function                                              Approach                 Novelty              Reproducibility
+                             relationship
+Structure prediction
+                                                              Glycan carrier
+
+                                                                                                    Open archive: Code, data and outcomes
+                                                                                                    from all teams archived into open repository.
+
+                                                                                                    Joint publication: Results are compiled and
+                                                                                                    documented.
+
+                                                                                                    Benchmark: This format encourages a shared
+                                                                                                    evaluation framework.
+
+                                  Glycan decorations                                                Exposed gaps: Each group sees where its owns
+                                                                                                    method fall short.
+
+
+
+                                     CLAUDIA LETICIA GOMEZ FLORES                  1 ADVISOR
+                                                                                               KELVIN ANGGARA      1
+
+
+                                                       1   MPI FOR SOLID STATE RESEARCH, STUTTGART, DE
+
+                  SUPPORTED BY:
+
