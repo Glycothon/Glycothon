@@ -1,6 +1,6 @@
 # Glycothon interest form: questions for Google Forms
 
-Create a Google Form, then in the Responses tab choose "Link to Sheets". Set the form to collect no email addresses unless you need them, and paste the form link into index.html where it says [LINK TO GOOGLE FORM].
+Create a Google Form, then in the Responses tab choose "Link to Sheets". Set the form to collect no email addresses unless you need them, and paste the form link into index.html where it says https://docs.google.com/forms/d/e/1FAIpQLSe6MR2kKdvO_49ZDJJxWNYyQuHVdzFbnAKuZph1yPCMi2Aohw/viewform.
 
 Intro text for the form:
 Glycothon is a proposed CASP inspired hackathon for glycoscience methods. The goal is a shared pool of tools and standards. It is not meant to create or deposit basic glycoscience research. This form only records your interest, nothing commits you.

@@ -51,7 +51,7 @@ Code, data and outcomes from all teams are archived in a public repository. Resu
 ## Get involved
 
 Contact: [CONTACT EMAIL]
-Interest form (team member, jury, data contributor): [LINK TO GOOGLE FORM]
+Interest form (team member, jury, data contributor): https://docs.google.com/forms/d/e/1FAIpQLSe6MR2kKdvO_49ZDJJxWNYyQuHVdzFbnAKuZph1yPCMi2Aohw/viewform
 
 ## Organizers
 
